@@ -1,5 +1,8 @@
+# Joint Vision-Language Social Bias Removal for CLIP [CVPR 2025]
+
+[![arxiv](https://img.shields.io/badge/paper-Arxiv-blue.svg)](https://arxiv.org/abs/2411.12785)
 ## Usage
-### Train
+### Train for Joint Vision-Language Social Bias Removal
 Install all dependencies in the ```requirements.txt```. Specifically, PyTorch 1.7.1 can be installed using the following command, whereas the rest can be installed using ```pip```.
 
 ```
@@ -14,7 +17,7 @@ $ python -u train.py --version (any name)
 ```
 where a folder corresponding to this experiment will be automatically created inside the ```exp``` folder containing ```stdout.log```, ```stderr.log``` and ```best.pth```.
 
-### Evaluate
+### Evaluate Social Bias and V-L Performance
 To evaluate the trained model or the original CLIP model, change the settings in ```eval_all.py``` including the path of model weights to be loaded. 
 
 Then, simply run 
@@ -22,6 +25,18 @@ Then, simply run
 $ python eval_all.py
 ``` 
 to check the results.
+
+
+## Citation:
+If you found this repo helpful, please kindly consider citing the following paper :+1: :
+```ruby
+@inproceedings{joint_vl_debiasing,
+      author={Haoyu Zhang and Yangyang Guo and Mohan Kankanhalli},
+      title={Joint Vision-Language Social Bias Removal for CLIP}, 
+      booktitle={CVPR},
+      year={2025},
+}
+```
 
 ## Acknowledgements
 The code of fairness evaluation and dataset is based on [Berg et al., 2022](https://github.com/oxai/debias-vision-lang).
