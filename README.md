@@ -34,7 +34,7 @@ If you found this repo helpful, please kindly consider citing the following pape
       author={Haoyu Zhang and Yangyang Guo and Mohan Kankanhalli},
       title={Joint Vision-Language Social Bias Removal for CLIP}, 
       booktitle={CVPR},
-      year={2025},
+      year={2025}
 }
 ```
 
