@@ -1,0 +1,13 @@
+torch==1.7.1
+torchvision==0.8.2
+clip @ git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33
+imagenetv2-pytorch @ git+https://github.com/modestyachts/ImageNetV2_pytorch@14d4456c39fe7f02a665544dd9fc37c1a5f8b635
+ftfy
+pandas
+Pillow
+psutil
+regex
+scikit-learn
+scipy
+tqdm
+open-clip-torch
